@@ -1,0 +1,43 @@
+.signup {
+    background-color: #A7C1A8;
+
+    width: 50%;
+
+    margin: auto;
+    box-shadow: 2px 2px  20px 10px  rgb(189, 188, 188);
+   
+
+
+}
+
+.input:focus {
+    border-color: #A7C1A8;
+    outline: none;
+
+
+
+}
+.signupBtn{
+
+    background-color: white;
+    border-color:white;
+    border-radius: 4px;
+   
+    font-size: 1.5625rem;
+    font-weight: 600;
+}
+.signupBtn a{
+     color: #819A91;
+
+} 
+.signupBtn:hover{
+    border-color: #819A91;
+     background-color: #819A91;
+    color: white;
+    
+
+}
+.signupBtn:hover a{
+     color: white;}
+
+

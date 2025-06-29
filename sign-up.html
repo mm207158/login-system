@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>sign up</title>
+
+        <meta charset="utf-8">
+        <meta name="description" content>
+        <meta name="keywords" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="webfonts">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/signup.css">
+
+    </head>
+
+    <body style="background-color: #ecede6;">
+        <section>
+            <div class="container p-5">
+                <div class="signup p-5 text-center">
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control input" id="username"
+                            placeholder="name@example.com">
+                        <label for="username">Enter Name
+                        </label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control input"
+                            id="signUpEmial"
+                            placeholder="name@example.com">
+                        <label for="signUpEmial">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control input"
+                            id="signUPPassword"
+                            placeholder="Password">
+                        <label for="signUPPassword">Password</label>
+                    </div>
+                    <button type="submit" class="signupBtn w-100 mt-4 p-2" id="signUpBtn">
+                        Sign Up
+                    </button>
+
+                    <p id="failSignUp" class="d-none  text-danger"> you must full all input</p>
+                    <p id="exist" class="d-none  text-danger">email is already exist</p>
+                    <p id="success" class="d-none text-success"> Success</p>
+                    <span style="color:#262e2b; ">you have an account?</span>
+                    <a id="signin" style="text-decoration: none; color:#262e2b;"
+                        href="index.html">SignIn
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
